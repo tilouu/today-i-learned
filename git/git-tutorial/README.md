@@ -400,3 +400,19 @@ PS C:\today-i-learned\git\git-tutorial> git log
 PS C:\today-i-learned\git\git-tutorial> rm -rf .git
 
 PS C:\today-i-learned\git\git-tutorial> git log
+
+PS C:\today-i-learned\git\git-tutorial> git add . 
+PS C:\today-i-learned\git\git-tutorial> git cm "Add README.md"
+[main c78153d] Add README.md
+ 1 file changed, 396 insertions(+), 1 deletion(-)
+PS C:\today-i-learned\git\git-tutorial> git push
+info: please complete authentication in your browser...
+Enumerating objects: 32, done.
+Counting objects: 100% (32/32), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (22/22), done.
+Writing objects: 100% (31/31), 2.13 MiB | 958.00 KiB/s, done.
+Total 31 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), done.
+To https://github.com/tilouu/today-i-learned.git
+   c5d9a97..c78153d  main -> main
